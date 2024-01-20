@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url("./mickey.jpg");
+    background-size: cover;
+    
+   
+}
+
+.container {
+    height: 100vh;
+    width: 70%;
+    /* background-color: antiquewhite; */
+    text-align: center;
+
+
+}
+
+#question-title {
+    margin-top: 1rem;
+    font-family: 'Kalam', cursive;
+    font-family: 'Lemon', serif;
+   padding-left: 10rem;
+   font-size: 3rem;
+}
+
+#test {
+    height: 12rem;
+    width: 90%;
+    background-color: aquamarine;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+
+    font-family: 'Cabin Sketch', sans-serif;
+    font-weight: bold;
+    background: rgb(158,55,144);
+background: linear-gradient(90deg, rgba(158,55,144,1) 0%, rgba(78,119,226,1) 96%);
+
+}
+
+.answer-box {
+    height:10rem;
+    width: 90%;
+    /* background-color: greenyellow; */
+    margin-top: 3rem;
+    margin-left: 2rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: block;
+    font-size: x-large;
+    font-weight: bold;
+
+}
+
+
+#get-answer{
+    margin-top: 2rem;
+    height: 3rem;
+    width: auto;
+    border-radius: 10px;
+    background-color: burlywood;
+    color:black;
+    font-weight: bold;
+}
+
+#submit-answer{
+    margin-top: 2rem;
+    height: 3rem;
+    width: auto;
+    border-radius: 10px;
+    background-color: burlywood;
+    color:black;
+    font-weight: bold;
+    margin-right: 2rem;
+}
